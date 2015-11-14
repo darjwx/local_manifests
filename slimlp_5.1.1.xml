@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!--Sony and qcom common -->
+<project name="SlimRoms/device_sony_qcom-common" path="device/sony/qcom-common" remote="github" revision="lp5.1" />
+<project name="SlimRoms/device_sony_common" path="device/sony/common" remote="github" revision="lp5.1" />
+
+<!--Huashan tree -->
+<project name="AdrianDC/android_kernel_sony_msm8960t" path="kernel/sony/msm8960t" remote="github" revision="cm-12.1" />
+<project name="AdrianDC/android_device_sony_huashan" path="device/sony/huashan" remote="github" revision="cm-12.1_clean" />
+<project name="darjwx/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-12.1_clean" />
+
+<!--Various projects -->
+<project name="AdrianDC/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-12.1" />
+
+<!--Slim settings -->
+<project name="darjwx/slim_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="lp5.1" />
+
+
+<!--Extra apps -->
+<project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_external_libtruezip" path="external/libtruezip" remote="github" revision="cm-12.1" />
+
+
+</manifest>

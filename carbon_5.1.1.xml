@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!--Sony xperia sp (huashan) -->
+<project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-12.1" />
+<project name="AdrianDC/android_kernel_sony_msm8960t" path="kernel/sony/msm8960t" remote="github" revision="cm-12.1" />
+<project name="AdrianDC/android_device_sony_huashan" path="device/sony/huashan" remote="github" revision="cm-12.1_clean" />
+<project name="darjwx/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-12.1_clean" />
+<project name="AdrianDC/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
+
+<!--Alcatel idol3 -->
+<project name="darjwx/android_kernel_alcatel_msm8916-stock" path="kernel/alcatel/msm8916" remote="github" revision="cm-12.1" />
+<project name="darjwx/android_device_alcatel_idol3" path="device/alcatel/idol3" remote="github" revision="cm-12.1" />
+<project name="darjwx/android_vendor_alcatel_idol3" path="vendor/alcatel/idol3" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
+
+
+
+</manifest>
