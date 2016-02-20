@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote  name="omnirom"
+           review="gerrit.omnirom.org"
+           fetch="https://github.com/omnirom" />
+
+<remote  name="cm"
+           fetch="https://github.com/CyanogenMod" />
+
+
+<!--Sony xperia sp (huashan) -->
+<project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-13.0" />
+<project name="AdrianDC/android_kernel_sony_msm8960t" path="kernel/sony/msm8960t" remote="github" revision="cm-13.0" />
+<project name="darjwx/omnirom_device_sony_huashan" path="device/sony/huashan" remote="github" revision="cm-13.0" />
+<project name="AdrianDC/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-13.0" />
+<project name="AdrianDC/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-13.0" />
+<project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-13.0" />
+
+<project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-13.0" />
+<project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-13.0" />
+
+
+<!--Caf stuff -->
+<project name="android_device_qcom_caf-sepolicy" path="device/qcom/sepolicy" remote="omnirom" revision="android-6.0" />
+<project name="android_frameworks_av" path="frameworks/av-caf" remote="omnirom" revision="android-6.0-caf" />
+<project name="android_frameworks_native" path="frameworks/native-caf" remote="omnirom" revision="android-6.0-caf" />
+<project name="android_hardware_ril" path="frameworks/ril-caf" remote="omnirom" revision="android-6.0-caf" />
+<project name="vendor_qcom_opensource_display-frameworks" path="vendor/qcom/opensource/display-frameworks" remote="omnirom" revision="android-6.0" />
+
+<project name="android_hardware_qcom_display" path="hardware/qcom/display-caf" remote="cm" revision="cm-13.0-caf-8960" />
+<project name="android_hardware_qcom_media" path="hardware/qcom/media-caf" remote="cm" revision="cm-13.0-caf-8960" />
+<project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf" remote="cm" revision="cm-13.0-caf-8960" />
+
+<!-- Qcom -->
+<project name="android_device_qcom_common" path="device/qcom/common" remote="omnirom" revision="android-6.0" />
+
+
+
+
+
+
+</manifest>
