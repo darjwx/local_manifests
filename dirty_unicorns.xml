@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<!--Dirty Unicorns local_manifests. AOSP based rom. This manifests uses an aosp/cm device tree edited for DU -->
 
-
+<!--Sony xperia sp (huashan) -->
+  <!--Common sony sources -->
 <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-13.0" />
+  <!--Kernel -->
 <project name="AdrianDC/android_kernel_sony_msm8960t" path="kernel/sony/msm8960t" remote="github" revision="cm-13.0" />
-
-<project name="AdrianDC/android_device_sony_huashan" path="device/sony/huashan" remote="github" revision="cm-13.0" />
+  <!--Device -->
+<project name="darjwx/aosp_device_sony_huashan" path="device/sony/huashan" remote="github" revision="du6.0" />
+  <!--Proprietary blobs -->
 <project name="AdrianDC/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-13.0" />
+
+<!--Hardware repos -->
+  <!--Dash -->
 <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-13.0" />
+  <!--Thermanager -->
 <project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-13.0" />
-
-
 
 </manifest>

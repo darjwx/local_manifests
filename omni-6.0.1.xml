@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<!--OMNI local_manifests. AOSP based rom. This manifests uses an aosp/cm device tree edited for omni -->
 
+<!--Remotes for omnirmo, cyanogenmod and my omnirom repositories -->
 <remote  name="omnirom"
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
@@ -13,34 +15,46 @@
 
 
 <!--Sony xperia sp (huashan) -->
+  <!--Sony common sources -->
 <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-13.0" />
+  <!--Kernel -->
 <project name="AdrianDC/android_kernel_sony_msm8960t" path="kernel/sony/msm8960t" remote="github" revision="cm-13.0" />
+  <!--Device -->
 <project name="omnirom_device_sony_huashan" path="device/sony/huashan" remote="omp" revision="cm-13.0" />
+  <!--Proprietary vendor blobs -->
 <project name="AdrianDC/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-13.0" />
+
+<!--Hardware repos -->
+  <!--Dash -->
 <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-13.0" />
+  <!--Thermanager -->
 <project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-13.0" />
 
-<project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-13.0" />
+<!--External stlport -->
 <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-13.0" />
 
 
-<!--Caf stuff -->
+<!--Omnirom caf repos -->
+  <!--Sepolicy -->
 <project name="android_device_qcom_caf-sepolicy" path="device/qcom/sepolicy" remote="omnirom" revision="android-6.0" />
+  <!--Frameworks av -->
 <project name="android_frameworks_av" path="frameworks/av-caf" remote="omnirom" revision="android-6.0-caf" />
+  <!--Frameworks native -->
 <project name="android_frameworks_native" path="frameworks/native-caf" remote="omnirom" revision="android-6.0-caf" />
+  <!--Ril -->
 <project name="android_hardware_ril" path="frameworks/ril-caf" remote="omnirom" revision="android-6.0-caf" />
+  <!--Display frameworks -->
 <project name="vendor_qcom_opensource_display-frameworks" path="vendor/qcom/opensource/display-frameworks" remote="omnirom" revision="android-6.0" />
 
+<!--CM caf repos -->
+  <!--Display -->
 <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf" remote="cm" revision="cm-13.0-caf-8960" />
+  <!--Media -->
 <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf" remote="cm" revision="cm-13.0-caf-8960" />
+  <!--Audio -->
 <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf" remote="cm" revision="cm-13.0-caf-8960" />
 
-<!-- Qcom -->
+<!-- Qcom common sources-->
 <project name="android_device_qcom_common" path="device/qcom/common" remote="omnirom" revision="android-6.0" />
-
-
-
-
-
 
 </manifest>
