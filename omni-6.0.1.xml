@@ -8,13 +8,16 @@
 <remote  name="cm"
            fetch="https://github.com/CyanogenMod" />
 
+<remote  name="omp"
+           fetch="https://github.com/OmniromMm-Port" />
+
 
 <!--Sony xperia sp (huashan) -->
 <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-13.0" />
 <project name="AdrianDC/android_kernel_sony_msm8960t" path="kernel/sony/msm8960t" remote="github" revision="cm-13.0" />
-<project name="darjwx/omnirom_device_sony_huashan" path="device/sony/huashan" remote="github" revision="cm-13.0" />
+<project name="omnirom_device_sony_huashan" path="device/sony/huashan" remote="omp" revision="cm-13.0" />
 <project name="AdrianDC/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-13.0" />
-<project name="AdrianDC/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-13.0" />
+<project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-13.0" />
 <project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-13.0" />
 
 <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-13.0" />
