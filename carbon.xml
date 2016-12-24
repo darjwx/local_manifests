@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- CarbonRom local_manifests. AOSP based rom. -->
+
+
+<!--OnePlusOne (bacon) -->
+
+  <!--Common oppo sources -->
+<project name="darjwx/android_device_oppo_common" path="device/oppo/common" remote="github" revision="cr-5.1" />
+
+  <!--Kernel -->
+<project name="darjwx/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="cr-5.1" />
+
+  <!--Device -->
+<project name="darjwx/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="cr-5.1" />
+
+  <!--Proprietary blobs -->
+<project name="darjwx/proprietary_vendor_oneplus" path="vendor/sony" remote="github" revision="nougat" />
+
+
+</manifest>
