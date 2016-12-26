@@ -21,7 +21,7 @@
   <project name="darjwx/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="cr-5.1" />
 
   <!--Proprietary blobs -->
-  <project name="darjwx/proprietary_vendor_oneplus" path="vendor/sony" remote="github" revision="nougat" />
+  <project name="darjwx/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="nougat" />
 
   <!-- Qcom -->
 
