@@ -23,11 +23,13 @@
   <!--Proprietary blobs -->
   <project name="darjwx/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="nougat" />
 
-  <!-- Qcom -->
+  <!-- Qcom device stuff-->
 
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="lineage" revision="cm-14.1" />
 
   <project name="AOSPA/android_device_qcom_common" path="device/qcom/common" remote="github" revision="nougat-mr1" />
+
+  <project name="android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="lineage" revision="cm-14.1" />
 
   <!-- Begin CyanogenMod Caf stuff-->
 
@@ -41,5 +43,10 @@
 
   <!--Ant wireless -->
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="lineage" revision="cm-14.1" />
+
+  <!-- Boring ssl compat -->
+
+  <project name="android_external_sony_boringssl-compat" path="external/boringssl-compat" remote="lineage" revision="cm-14.1" />
+
 
 </manifest>
