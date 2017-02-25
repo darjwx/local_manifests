@@ -10,42 +10,24 @@
 
 
 <!--OnePlusOne (bacon) -->
+  
+  <!--Device -->
+  <project name="darjwx/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="cr-5.1-new" />
+
+  <!--Kernel -->
+  <project name="android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="lineage" revision="cm-14.1" />
 
   <!--Common oppo sources -->
   <project name="darjwx/android_device_oppo_common" path="device/oppo/common" remote="github" revision="cr-5.1" />
 
-  <!--Kernel -->
-  <project name="darjwx/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="cr-5.1" />
-
-  <!--Device -->
-  <project name="darjwx/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="cr-5.1" />
-
   <!--Proprietary blobs -->
-  <project name="darjwx/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="nougat" />
+  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1" />
 
   <!-- Qcom device stuff-->
 
-  <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="lineage" revision="cm-14.1" />
-
-  <project name="AOSPA/android_device_qcom_common" path="device/qcom/common" remote="github" revision="nougat-mr1" />
-
-  <project name="android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="lineage" revision="cm-14.1" />
-
-  <!-- Begin CyanogenMod Caf stuff-->
-
-  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" remote="lineage" revision="cm-14.1-caf-8974" />
-
-  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" remote="lineage" revision="cm-14.1-caf-8974" />
-
-  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" remote="lineage" revision="cm-14.1-caf-8974" />
-
-  <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="lineage" revision="cm-14.1-caf" />
-
-  <!--Ant wireless -->
-  <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="lineage" revision="cm-14.1" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="lineage" revision="cm-14.1" />
 
   <!-- Boring ssl compat -->
-
   <project name="android_external_sony_boringssl-compat" path="external/boringssl-compat" remote="lineage" revision="cm-14.1" />
 
 
